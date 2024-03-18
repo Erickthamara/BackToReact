@@ -11,14 +11,24 @@ function App() {
 
   return (
     <>
-     <h2>Hello world</h2>
+     {/* <h2>Hello world</h2>
       <h2>Hello Incrementer</h2>
       <button onClick={()=>setNum(num+1)} >Click ME</button>
       <div>{num}</div>
        {data.map((person)=>{
         const {name,age}=person;
         return <p>My name is {name} and i am {age} years old.</p>
-      })}
+      })} */}
+      <nav className='navbar'>
+        <ul>
+          <li> <a href="">Home</a></li>
+           <li><a href="">About US</a></li>
+           <li><a href="">Contact Us</a></li>
+           <li>   <a href="">History</a></li>
+
+        </ul>
+    
+      </nav>
      
     </>
   )
